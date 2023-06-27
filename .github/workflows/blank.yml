@@ -35,5 +35,5 @@ jobs:
       - name: Upload scan result
         uses: actions/upload-artifact@v3
         with:
-           name: zipfile
-           path: zipfile.txt
+           name: Test
+           path: Test
